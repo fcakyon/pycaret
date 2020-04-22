@@ -1,0 +1,86 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: pycaret
+  version: {{ data['version'] }}
+
+source:
+  path: ..
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - python
+    - pandas
+    - numpy
+    - seaborn
+    - matplotlib
+    - ipython
+    - joblib
+    - scikit-learn=0.22
+    - shap=0.32.1
+    - ipywidgets
+    - yellowbrick=1.0.1
+    - xgboost=0.90
+    - lightgbm=2.3.1
+    - plotly=4.4.1
+    - wordcloud
+    - textblob
+    - cufflinks-py=0.17.0
+    - umap-learn
+    - pyLDAvis
+    - gensim
+    - spacy
+    - nltk
+    - mlxtend
+    - pyod
+    - catboost=0.20.2
+    - pandas-profiling=2.3.0
+    - kmodes
+    - datefinder
+    - datetime
+    - awscli
+
+  run:
+    - python
+    - pandas
+    - numpy
+    - seaborn
+    - matplotlib
+    - ipython
+    - joblib
+    - scikit-learn=0.22
+    - shap=0.32.1
+    - ipywidgets
+    - yellowbrick=1.0.1
+    - xgboost==0.90
+    - lightgbm=2.3.1
+    - plotly=4.4.1
+    - wordcloud
+    - textblob
+    - cufflinks-py=0.17.0
+    - umap-learn
+    - pyLDAvis
+    - gensim
+    - spacy
+    - nltk
+    - mlxtend
+    - pyod
+    - catboost=0.20.2
+    - pandas-profiling=2.3.0
+    - kmodes
+    - datefinder
+    - datetime
+    - awscli
+
+test:
+  imports:
+    - pycaret
+
+about:
+  home: {{ data['url'] }}
+  license: {{ data['license'] }}
+summary: {{ data['description'] }}
