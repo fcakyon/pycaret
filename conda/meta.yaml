@@ -21,15 +21,15 @@ requirements:
     - ipython
     - joblib
     - scikit-learn
-    - shap=0.32.1
+    - shap
     - ipywidgets
-    - yellowbrick=1.0.1
-    - xgboost=0.90
-    - lightgbm=2.3.1
+    - yellowbrick
+    - xgboost
+    - lightgbm
     - plotly
     - wordcloud
     - textblob
-    - cufflinks-py=0.17.0
+    - cufflinks-py
     - umap-learn
     - pyLDAvis
     - gensim
@@ -37,7 +37,7 @@ requirements:
     - nltk
     - mlxtend
     - pyod
-    - catboost=0.20.2
+    - catboost
     - pandas-profiling
     - kmodes
     - datefinder
@@ -53,15 +53,15 @@ requirements:
     - ipython
     - joblib
     - scikit-learn
-    - shap=0.32.1
+    - shap
     - ipywidgets
-    - yellowbrick=1.0.1
-    - xgboost=0.90
-    - lightgbm=2.3.1
+    - yellowbrick
+    - xgboost
+    - lightgbm
     - plotly
     - wordcloud
     - textblob
-    - cufflinks-py=0.17.0
+    - cufflinks-py
     - umap-learn
     - pyLDAvis
     - gensim
@@ -69,7 +69,7 @@ requirements:
     - nltk
     - mlxtend
     - pyod
-    - catboost=0.20.2
+    - catboost
     - pandas-profiling
     - kmodes
     - datefinder
