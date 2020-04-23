@@ -20,13 +20,13 @@ requirements:
     - matplotlib
     - ipython
     - joblib
-    - scikit-learn=0.22
+    - scikit-learn
     - shap=0.32.1
     - ipywidgets
     - yellowbrick=1.0.1
     - xgboost=0.90
     - lightgbm=2.3.1
-    - plotly=4.4.1
+    - plotly
     - wordcloud
     - textblob
     - cufflinks-py=0.17.0
@@ -38,7 +38,7 @@ requirements:
     - mlxtend
     - pyod
     - catboost=0.20.2
-    - pandas-profiling=2.3.0
+    - pandas-profiling
     - kmodes
     - datefinder
     - datetime
@@ -52,13 +52,13 @@ requirements:
     - matplotlib
     - ipython
     - joblib
-    - scikit-learn=0.22
+    - scikit-learn
     - shap=0.32.1
     - ipywidgets
     - yellowbrick=1.0.1
-    - xgboost==0.90
+    - xgboost=0.90
     - lightgbm=2.3.1
-    - plotly=4.4.1
+    - plotly
     - wordcloud
     - textblob
     - cufflinks-py=0.17.0
@@ -70,7 +70,7 @@ requirements:
     - mlxtend
     - pyod
     - catboost=0.20.2
-    - pandas-profiling=2.3.0
+    - pandas-profiling
     - kmodes
     - datefinder
     - datetime
